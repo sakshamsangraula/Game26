@@ -1,4 +1,4 @@
-package sxs3122lab13;
+package card;
 
 // This class returns a card with face followed by the suit, initializes the instance variables with the values
 // and returns the values in the getValue() method which will be used by the getHandValue() method to sum
