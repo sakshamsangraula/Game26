@@ -31,9 +31,15 @@ public class Card {
 	            this.face = "" + value;
 	        }
 	    }
+	    
+	    // This method will be called by the hit() method in the Player class to compare the face of the card to an Ace
 	    public String getFace() {
 	    	return face;
 	    }
+	    
+	    // This method will be called by the hit() method to convert the value of Ace to 1 instead of 11
+	    // if the hand ArrayList contains an Ace
+	    
 	    public boolean convertAce() {
 	        if (face.equals("A") && value == 11) {
 	            value = 1;
