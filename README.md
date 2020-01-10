@@ -4,7 +4,8 @@ In this game, the number of decks (here it is 1) and the number of players (here
 
 The game will be simulated until all the players cannot ask for more cards and the player that has the sum closest to 26 will be the winner. If the dealer and a player have the same value then the dealer will be the winner. There can be multiple players who are winners if they have the same value. 
 
-Programming concepts: Arrays, ArrayLists, and Object-Oriented Programming
+Data Structurs: Arrays, ArrayLists
+Programming concepts: Object-Oriented Programming
 
 Object-Oriented Programming concepts:
 
